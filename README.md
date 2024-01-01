@@ -18,8 +18,10 @@ To use this integration and communicate with ChatGPT, follow the steps below:
 
 1. Install the necessary dependencies by running `pip install -r requirements.txt`.
 2. Customize the `config.py` file and set up the required plugins (e.g., WolframAlpha), ChatGPT models, and any additional settings.
-3. Run the `main.py` script to start the PyWebIO server.
-4. Open the provided URL in your browser and start interacting with the chatbot.
+3. Obtain your API key by following the instructions provided in the Nagai.ai Discord channel. In the Discord chat, enter the command "I bot /key get" to retrieve your key.
+4. Update the `config.py` file with your Nagai.ai API key.
+5. Run the `main.py` script to start the PyWebIO server.
+6. Open the provided URL in your browser and start interacting with the chatbot.
 
 ## Additional Information
 
