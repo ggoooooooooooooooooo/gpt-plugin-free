@@ -10,14 +10,14 @@ Before running the code in this repository, make sure you have the following dep
 - PyWebIO 1.8.0+
 - OpenAI GPT library
 - Nagai.ai
-- Required plugins (specific to your use case)
+- Additional plugins (such as WolframAlpha)
 
 ## Usage
 
 To use this integration and communicate with ChatGPT, follow the steps below:
 
 1. Install the necessary dependencies by running `pip install -r requirements.txt`.
-2. Customize the `config.py` file and set up the required plugins, ChatGPT models, and any additional settings.
+2. Customize the `config.py` file and set up the required plugins (e.g., WolframAlpha), ChatGPT models, and any additional settings.
 3. Run the `main.py` script to start the PyWebIO server.
 4. Open the provided URL in your browser and start interacting with the chatbot.
 
@@ -25,8 +25,10 @@ To use this integration and communicate with ChatGPT, follow the steps below:
 
 - The chatbot is powered by Nagai.ai, which provides an easy-to-use interface for integrating chatbots with different frameworks or platforms.
 - PyWebIO is used as the web user interface for the chatbot, allowing for interactive and real-time conversations with the user.
-- The integration supports the use of plugins, which can extend the functionality and capabilities of the chatbot.
-- Make sure to refer to the documentation provided by Nagai.ai for a detailed understanding of the integration process and available options.
+- The integration supports the use of plugins like WolframAlpha, which can extend the chatbot's functionality and allow for advanced computations or queries.
+- The file upload feature is included but may have limited functionality currently. Future updates will address this issue and improve file handling capabilities.
+- The integration is open to future updates, including the addition of more plugins and support for new ChatGPT models.
+- Make sure to refer to the documentation provided by Nagai.ai for more information on integrating plugins and utilizing different models.
 
 ## Feedback and Contributions
 
